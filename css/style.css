@@ -29,6 +29,11 @@ body a:hover {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
+.corl:hover a{
+        color: #CC217A;
+        text-decoration: u;
+}
+
 
 body a:focus,
 a:hover {
