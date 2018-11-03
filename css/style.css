@@ -409,7 +409,7 @@ ul.list-beach li p {
 
 /* //middle section */
 .some-another {
-    background: url(../images/bg2.jpg) no-repeat center;
+    background: url(../images/bg2.png) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -637,7 +637,7 @@ ul.footer-nav-wthree li a {
 
 /* inner pages */
 .banner-w3ls-2 {
-    background: url(../images/bg2.jpg) no-repeat center;
+    background: url(../images/bg2.png) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
