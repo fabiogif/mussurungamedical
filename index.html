@@ -10,6 +10,7 @@
 	<link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
 
 	<script>
+		
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
 		}, false);
@@ -24,6 +25,8 @@
 	<!-- Custom-Files -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 	<!-- Style-CSS -->
 	<link rel="stylesheet" href="css/font-awesome.css">
@@ -226,19 +229,71 @@
 			</div>
 		</div>
 	</section>
-	<!-- //services -->
+	<!//services -->
 <!-- brands -->
 <div class="bottom-w3pvt pb-lg-5 py-lg-0 py-5">
+	<div class="row">
+		
+			<div class="row">
+					<div class="large-12 columns">
+					 
+					  </div>
+					  </div>
+					  </div>
+	
+	
+	
+	
+	
+	
+	
+	</div>
 	<div class="container py-xl-5 py-lg-3">
-		<h3 class="title-w3 mb-sm-5 mb-4 text-dark text-center font-weight-bold">Particular e Convênios</h3>
-		<ul class="list-unstyled brands text-center pt-5">
-			<li><img src="images/logo-amil.png" alt="Amil" title="Amil"/></li>
-			<li><img src="images/logo-trt5.png" alt="Trt5 Saúde" title="Trt5 Saúde"/></li>
-			<li><img src="images/logo-visa.png" alt="Visa" title="Visa"/></i></li>
-			<li><img src="images/logo-mastercard.png" alt="MasterCard" title="MasterCard"/></li>
-			<li><img src="images/logo-planserv.png" alt="Plan serv" title="Plan serv"/></li>
 
-		</ul>
+		<h3 class="title-w3 mb-sm-5 mb-4 text-dark text-center font-weight-bold">Particular e Convênios</h3>
+		<div class="col-md-12">
+                <div class="owl-carousel carousel-corpo-clinico owl-theme owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+				<div class="owl-stage" style="transform: translate3d(-1140px, 0px, 0px); transition: all 0s ease 0s; width: 3420px;">
+					<div class="owl-item cloned" style="width: 285px;">
+						<div class="col-md-12"> 
+                    <img src="images/logo-amil.png" alt="Amil" class="img-responsive">                  
+				</div>
+			</div>
+				
+				<div class="owl-item cloned" style="width: 285px;">
+					<div class="col-md-12"> 
+                    <img src="images/logo-trt5.png" alt="Trt5 Saúde" title="Trt5 Saúde" class="img-responsive">                  
+				</div>
+			</div>
+			<div class="owl-item cloned" style="width: 285px;">
+					<div class="col-md-12"> 
+						<img src="images/logo-mc.png" alt="MasterCard"   title="Visa" class="img-responsive">                  
+					</div>
+				</div>
+				<div class="owl-item cloned" style="width: 285px;">
+					<div class="col-md-12"> 
+						<img src="images/logo-visa.png" alt="Visa" title="Visa" class="img-responsive">                  
+				</div>
+				</div>
+			
+				<div class="owl-item active" style="width: 285px;">
+					<div class="col-md-12"> 
+						<img src="images/logo-planserv.png" alt="Plan serv" title="Plan serv" class="img-responsive">                  
+				</div>
+			</div>
+			<div class="owl-item active" style="width: 285px;">
+					<div class="col-md-12"> 
+						<img src="images/logo-visa.png" alt="Plan serv" title="Plan serv" class="img-responsive">                  
+				</div>
+			</div>
+			
+				</div>
+				
+				</div>
+				</div>
+				</div>
+
 	</div>
 </div>
 <!-- //brands -->
@@ -549,6 +604,9 @@
 	<!-- //search plugin -->
 
 	<!-- smooth scrolling -->
+
+	<script src="owlcarousel/owl.carousel.min.js"></script>
+
 	<script src="js/SmoothScroll.min.js"></script>
 	<!-- move-top -->
 	<script src="js/move-top.js"></script>
@@ -560,7 +618,30 @@
 	<script src="js/bootstrap.js"></script>
 	<!-- Necessary-JavaScript-File-For-Bootstrap -->
 	<!-- //Js files -->
-
+<script>
+	$(document).ready(function() {
+              $('.owl-carousel').owlCarousel({
+			dots:true,
+            loop:true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },            
+        960:{
+            items:3
+        },
+        1200:{
+            items:4
+        }
+    }
+              })
+            })
+</script>
 
 </body>
 
