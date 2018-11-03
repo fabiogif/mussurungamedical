@@ -221,7 +221,10 @@ a.reqe-button {
 /* //navigation */
 /* //header */
 /* banner */
-
+.listRosa ul li i{
+    color: #CC217A;
+    font:22px;
+}
 .banner-img {
     background: url(../images/main.png) no-repeat bottom;
     background-size: cover;
