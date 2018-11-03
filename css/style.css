@@ -406,7 +406,17 @@ ul.list-beach li p {
     color: #CC217A;
     font-size: 22px;
 }
-
+.pisca {
+    font-size: 30px;
+    color:#CC217A !important;
+    opacity: 0;
+    animation: anima 1s ease infinite;
+}
+@keyframes anima {
+    to {
+        opacity: 1;
+    }
+}
 /* //middle section */
 .some-another {
     background: url(../images/bg2.png) no-repeat center;
